@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: #F4EEE5;
+      font-family: 'Inter', sans-serif;
+      color: #2C2A28;
+      display: grid;
+      grid-template-columns: 54% 46%;
+    }
+    .left-panel {
+      min-height: 720px;
+      padding-top: 78px; /* preserve upper padding of the title */
+      padding-left: 84px;
+      padding-right: 58px;
+    }
+    .kicker {
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 46px;
+      line-height: 1.04;
+      color: #143C3A;
+      margin-bottom: 12px; /* reduced to save vertical space */
+      max-width: 470px;
+    }
+    .intro {
+      font-size: 22px;
+      line-height: 1.48;
+      color: #312E2A;
+      max-width: 500px;
+      margin-bottom: 20px; /* reduced */
+    }
+    /* Reduced vertical footprint: smaller gaps and paddings */
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 8px; /* reduced gap */
+      width: 520px;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 86px 1fr;
+      align-items: start;
+      border-top: 1px solid rgba(20, 60, 58, 0.18);
+      padding-top: 4px; /* reduced */
+      min-height: 0;
+    }
+    .step:first-child {
+      border-top: none;
+      padding-top: 0;
+      min-height: 0;
+    }
+    .num {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      line-height: 1;
+      color: rgba(20, 60, 58, 0.26);
+    }
+    .step-title {
+      font-size: 26px;
+      line-height: 1.2;
+      font-weight: 600;
+      color: #143C3A;
+      margin-bottom: 6px; /* reduced */
+    }
+    /* Allow slightly wider text to avoid extra wrapping */
+    .step-text {
+      font-size: 19px;
+      line-height: 1.48;
+      color: #2C2A28;
+      max-width: 520px;
+    }
+    .right-panel {
+      min-height: 720px;
+      background: #143C3A;
+      padding-top: 82px;
+      padding-left: 54px;
+      padding-right: 56px;
+      color: #F4EEE5;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* avoid space-between which stretched the column */
+    }
+    .right-title {
+      font-size: 18px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(244, 238, 229, 0.78);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .output-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px; /* reduced gap */
+      margin-top: 12px;
+    }
+    .output {
+      border-top: 1px solid rgba(244, 238, 229, 0.24);
+      padding-top: 8px; /* reduced */
+      min-height: 0;
+    }
+    .output:first-child {
+      border-top: none;
+      padding-top: 0;
+      min-height: 0;
+    }
+    .output h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      line-height: 1.1;
+      margin-bottom: 8px; /* slightly reduced */
+      color: #F4EEE5;
+    }
+    .output p {
+      font-size: 20px;
+      line-height: 1.5;
+      color: rgba(244, 238, 229, 0.92);
+      max-width: 430px;
+    }
+    .footer-note {
+      padding-top: 8px; /* reduced */
+      border-top: 1px solid rgba(244, 238, 229, 0.24);
+      font-size: 18px;
+      line-height: 1.45;
+      color: rgba(244, 238, 229, 0.8);
+      max-width: 410px;
+      margin-top: 12px; /* ensure it sits right after outputs */
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left-panel">
+      <div class="kicker">Session 1</div>
+      <h1>Money clarity starts with the real picture</h1>
+      <div class="intro">The first session is designed to slow things down, make the current situation visible, and help both partners understand where the pressure is really coming from.</div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">01</div>
+          <div>
+            <div class="step-title">Map the current money picture</div>
+            <div class="step-text">Income, spending, savings and obligations are shown together for a clear starting point.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="num">02</div>
+          <div>
+            <div class="step-title">Surface the pressure points</div>
+            <div class="step-text">We pinpoint where money feels stretched, avoided, or emotionally loaded.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="num">03</div>
+          <div>
+            <div class="step-title">Identify the main sources of friction</div>
+            <div class="step-text">Patterns that create recurring tension are highlighted to guide next steps.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="right-panel">
+      <div>
+        <div class="right-title">What this session gives them</div>
+        <div class="output-list">
+          <div class="output">
+            <h2>A shared starting point</h2>
+            <p>Both partners can see the same financial picture clearly, which reduces confusion and stops the conversation from scattering.</p>
+          </div>
+          <div class="output">
+            <h2>Less hidden pressure</h2>
+            <p>Unspoken worries, recurring pinch points, and low-grade overwhelm are brought into the open in a calmer, more useful way.</p>
+          </div>
+          <div class="output">
+            <h2>Clearer next-session focus</h2>
+            <p>By the end of session one, it is easier to know what needs attention first and what the shared action plan should solve next.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-note">This first conversation is not about solving everything at once. It is about making the situation understandable enough to move forward together.</div>
+    </section>
+  </div>
+</body>
+</html>

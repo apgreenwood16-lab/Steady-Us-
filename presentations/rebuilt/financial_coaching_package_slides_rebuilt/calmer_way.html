@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: #F4EEE5;
+      display: grid;
+      grid-template-columns: 48% 52%;
+      font-family: 'Inter', sans-serif;
+      color: #2C2A28;
+    }
+    .left {
+      min-height: 720px;
+      padding-top: 88px;
+      padding-left: 84px;
+      padding-right: 60px;
+      border-right: 1px solid rgba(20, 60, 58, 0.18);
+    }
+    .kicker {
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+      line-height: 1.02;
+      color: #143C3A;
+      max-width: 430px;
+      margin-bottom: 26px;
+    }
+    .intro {
+      font-size: 24px;
+      line-height: 1.45;
+      max-width: 420px;
+      color: #312E2A;
+      margin-bottom: 34px;
+    }
+    .quote {
+      width: 390px;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #5A554F;
+      border-top: 3px solid #7A8F6A;
+      padding-top: 22px;
+    }
+    .right {
+      min-height: 720px;
+      padding-top: 92px;
+      padding-left: 54px;
+      padding-right: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .band {
+      min-height: 148px;
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      align-items: start;
+      border-top: 1px solid rgba(20, 60, 58, 0.18);
+      padding-top: 18px;
+    }
+    .band:first-child { border-top: none; padding-top: 0; }
+    .num {
+      font-family: 'Playfair Display', serif;
+      font-size: 54px;
+      line-height: 1;
+      color: rgba(20, 60, 58, 0.25);
+    }
+    .band h2 {
+      font-size: 28px;
+      line-height: 1.2;
+      color: #143C3A;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .band p {
+      font-size: 20px;
+      line-height: 1.5;
+      color: #2C2A28;
+      max-width: 470px;
+    }
+    .footer {
+      font-size: 15px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left">
+      <div class="kicker">Core promise</div>
+      <h1>A calmer way to sort money together</h1>
+      <div class="intro">This package is built for couples who do not need a lecture or a spreadsheet overhaul. They need a clear conversation, grounded priorities, and a plan they can actually use.</div>
+      <div class="quote">“I want the sessions to feel personal, practical, and easier to act on than the money conversations most couples keep postponing.”</div>
+    </section>
+    <section class="right">
+      <div class="band">
+        <div class="num">01</div>
+        <div>
+          <h2>No shame, no jargon</h2>
+          <p>The tone is calm and human, so couples can talk honestly about what feels messy without being made to feel behind.</p>
+        </div>
+      </div>
+      <div class="band">
+        <div class="num">02</div>
+        <div>
+          <h2>Built for real-life pressure</h2>
+          <p>The focus is not theoretical optimisation. It is cash-flow clarity, practical decisions, and less friction in everyday life.</p>
+        </div>
+      </div>
+      <div class="band">
+        <div class="num">03</div>
+        <div>
+          <h2>Shared clarity, practical next steps</h2>
+          <p>Couples leave with clearer priorities, simple actions, and a more realistic sense of what to do next together.</p>
+        </div>
+      </div>
+      <div class="footer">SteadyUs · Couples Budget Reset</div>
+    </section>
+  </div>
+</body>
+</html>

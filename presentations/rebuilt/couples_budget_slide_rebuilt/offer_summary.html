@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#111}
+    .slide-container{width:1280px;min-height:720px;background:#F4EEE5;display:grid;grid-template-columns:34% 33% 33%;font-family:'Inter',sans-serif;color:#2C2A28}
+    .left{min-height:720px;padding-top:82px;padding-left:72px;padding-right:44px;border-right:1px solid rgba(20,60,58,.16)}
+    .mid{min-height:720px;padding-top:82px;padding-left:44px;padding-right:44px;border-right:1px solid rgba(20,60,58,.16)}
+    .right{min-height:720px;background:#143C3A;color:#F4EEE5;padding-top:82px;padding-left:44px;padding-right:46px}
+    .kicker{font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#7A8F6A;font-weight:600;margin-bottom:16px}
+    .right .kicker{color:#B6C6AA}
+    h1{font-family:'Playfair Display',serif;font-size:48px;line-height:1.03;color:#143C3A;max-width:300px;margin-bottom:24px}
+    .promise{font-size:23px;line-height:1.48;max-width:280px;color:#312E2A;margin-bottom:26px}
+    .quote{font-size:18px;line-height:1.55;color:#5A554F;border-top:3px solid #7A8F6A;padding-top:16px;max-width:270px}
+    .section{margin-bottom:28px}
+    /* tighter mid column spacing to reduce total height */
+    .mid .section{margin-bottom:10px}
+    .section-title{font-family:'Playfair Display',serif;font-size:30px;line-height:1.1;color:#143C3A;margin-bottom:12px}
+    .item{border-top:1px solid rgba(20,60,58,.16);padding-top:8px;margin-top:6px}
+    .item:first-of-type{border-top:none;padding-top:0;margin-top:0}
+    .item h3{font-size:22px;line-height:1.2;color:#143C3A;margin-bottom:8px;font-weight:600}
+    .item p{font-size:18px;line-height:1.48;color:#2C2A28;max-width:260px}
+    .price{font-family:'Playfair Display',serif;font-size:94px;line-height:.95;margin-bottom:8px;color:#F4EEE5}
+    .right-head{font-family:'Playfair Display',serif;font-size:36px;line-height:1.08;margin-bottom:12px;color:#F4EEE5}
+    .right-copy{font-size:20px;line-height:1.5;color:rgba(244,238,229,.92);max-width:280px;margin-bottom:22px}
+    .step{border-top:1px solid rgba(244,238,229,.22);padding-top:8px;margin-top:6px}
+    .step:first-of-type{border-top:none;padding-top:0;margin-top:0}
+    .step h3{font-size:22px;line-height:1.2;color:#F4EEE5;margin-bottom:6px;font-weight:600}
+    .step p{font-size:17px;line-height:1.45;color:rgba(244,238,229,.86);max-width:260px}
+    .foot{margin-top:8px;padding-top:8px;border-top:2px solid rgba(182,198,170,.45);font-size:16px;line-height:1.45;color:rgba(244,238,229,.82)}
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left">
+      <div class="kicker">SteadyUs</div>
+      <h1>Couples Budget Reset</h1>
+      <div class="promise">A calm, practical coaching package for couples who want clearer money conversations and a realistic shared plan.</div>
+      <div class="quote">Built to feel personal, accessible, and easier to act on than another circular money conversation.</div>
+    </section>
+    <section class="mid">
+      <div class="section">
+        <div class="section-title">What’s included</div>
+        <div class="item"><h3>Two live sessions</h3><p>One to map the real picture, one to create a shared action plan.</p></div>
+        <div class="item"><h3>Simple prompts</h3><p>Just enough structure between sessions to keep things grounded.</p></div>
+        <div class="item"><h3>Written summary</h3><p>A concise recap of priorities, decisions, and next steps.</p></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Who it’s for</div>
+        <div class="item"><p>Busy couples juggling savings, debt, or home goals who want more clarity together and less friction around money.</p></div>
+      </div>
+    </section>
+    <section class="right">
+      <div class="kicker">Pilot offer</div>
+      <div class="price">£99</div>
+      <div class="right-head">Low-pressure next steps</div>
+      <!-- right-copy removed to reduce height -->
+      <div class="step"><h3>1. Send a short enquiry</h3><p>Share what feels stuck and suggest a couple of times.</p></div>
+      <div class="step"><h3>2. Get a personal reply</h3><p>Andy confirms the best option and answers questions.</p></div>
+      <div class="step"><h3>3. Confirm and pay</h3><p>Payment is requested only after the appointment is agreed.</p></div>
+      <div class="foot">Expected standard pricing after pilot: £129–£149.</div>
+    </section>
+  </div>
+</body>
+</html>

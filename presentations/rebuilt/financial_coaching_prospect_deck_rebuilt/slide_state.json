@@ -1,0 +1,60 @@
+{
+  "project_info": {
+    "title": "SteadyUs — Prospect Deck",
+    "created": 1777828057.634055,
+    "last_updated": 1777828142.1655867,
+    "total_slides": 4
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "problem",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "offer",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "next_steps",
+      "state": "edited",
+      "pageNum": 4
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "SteadyUs — Prospect Deck",
+      "summary": "Cover slide for a short prospect-facing overview of the Couples Budget Reset offer.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "problem",
+      "title": "Why couples stay stuck",
+      "summary": "Briefly explain the common money patterns that keep sensible couples stuck, overwhelmed, or postponing action.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "offer",
+      "title": "What SteadyUs offers",
+      "summary": "Summarize the core offer, tone, and practical outcomes from the two-session coaching package.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_steps",
+      "title": "Pilot price and enquiry path",
+      "summary": "Close with the pilot price and the low-pressure enquiry-first booking process.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

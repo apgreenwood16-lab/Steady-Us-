@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; }
+    .slide-container {
+      width: 1280px;
+      min-height: 680px;
+      background: #F4EEE5;
+      display: grid;
+      grid-template-columns: 39% 61%;
+      font-family: 'Inter', sans-serif;
+      color: #2C2A28;
+    }
+    .left {
+      min-height: 680px;
+      padding-top: 82px; /* keep upper padding of title */
+      padding-left: 82px;
+      padding-right: 48px;
+      border-right: 1px solid rgba(20, 60, 58, 0.18);
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+    .kicker {
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      line-height: 1.04;
+      color: #143C3A;
+      max-width: 330px;
+      margin-bottom: 16px;
+    }
+    .intro {
+      font-size: 23px;
+      line-height: 1.5;
+      color: #312E2A;
+      max-width: 320px;
+    }
+    .quote-block {
+      border-top: 3px solid #7A8F6A;
+      padding-top: 12px;
+      width: 300px;
+      margin-top: 18px;
+    }
+    .quote {
+      font-size: 22px;
+      line-height: 1.4;
+      color: #5A554F;
+    }
+    .left-footer {
+      font-size: 15px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      padding-top: 12px;
+    }
+    .right {
+      min-height: 680px;
+      padding-top: 56px;
+      padding-left: 52px;
+      padding-right: 72px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .section {
+      min-height: 160px;
+      border-top: 1px solid rgba(20, 60, 58, 0.18);
+      padding-top: 8px;
+    }
+    .section:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+    .section-label {
+      font-size: 15px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      min-height: 120px;
+    }
+    .cell {
+      border-left: 2px solid rgba(20, 60, 58, 0.16);
+      padding-top: 4px;
+      padding-left: 12px;
+    }
+    .cell h2 {
+      font-size: 25px;
+      line-height: 1.22;
+      color: #143C3A;
+      font-weight: 600;
+      margin-bottom: 8px;
+      max-width: 180px;
+    }
+    .cell p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #2C2A28;
+      max-width: 200px;
+    }
+    .footnote {
+      margin-top: 6px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(20, 60, 58, 0.18);
+      font-size: 18px;
+      line-height: 1.45;
+      color: #5A554F;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left">
+      <div>
+        <div class="kicker">Positioning</div>
+        <h1>Why this feels different</h1>
+        <div class="intro">The offer feels like calm, first‑person support for couples to get organised together — not a corporate programme or regulated advice.</div>
+        <div class="quote-block">
+          <div class="quote">“I want the work to feel personal, practical, and straightforward so couples can move from avoidance into action.”</div>
+        </div>
+      </div>
+      <div class="left-footer">SteadyUs · Coaching-led support</div>
+    </section>
+    <section class="right">
+      <div class="section">
+        <div class="section-label">What it is</div>
+        <div class="grid">
+          <div class="cell">
+            <h2>Personal and first-person</h2>
+            <p>Direct, human language so people hear a real coach rather than a brand script.</p>
+          </div>
+          <div class="cell">
+            <h2>Coaching-led and practical</h2>
+            <p>Sessions focus on pressure points, clear priorities, and realistic next steps.</p>
+          </div>
+          <div class="cell">
+            <h2>Built for capable couples</h2>
+            <p>For people who are sensible and motivated but still feel stretched or stuck.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-label">What it is not</div>
+        <div class="grid">
+          <div class="cell">
+            <h2>Not corporate financial language</h2>
+            <p>No hard-sell positioning, fintech jargon, or feeling judged.</p>
+          </div>
+          <div class="cell">
+            <h2>Not regulated advice</h2>
+            <p>Budgeting and organisation help — not investment, pension, tax, mortgage, or legal advice.</p>
+          </div>
+          <div class="cell">
+            <h2>Not crisis or therapy support</h2>
+            <p>Structured money clarity, not emergency intervention or clinical support.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footnote">This distinction matters because the service works best when couples want clearer conversations, calmer decisions, and a realistic shared plan.</div>
+    </section>
+  </div>
+</body>
+</html>

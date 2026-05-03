@@ -1,0 +1,24 @@
+{
+  "project_info": {
+    "title": "Couples Budget Reset at a glance",
+    "created": 1777828156.142714,
+    "last_updated": 1777828178.932349,
+    "total_slides": 1
+  },
+  "slides": [
+    {
+      "id": "offer_summary",
+      "state": "edited",
+      "pageNum": 1
+    }
+  ],
+  "outline": [
+    {
+      "id": "offer_summary",
+      "title": "Couples Budget Reset at a glance",
+      "summary": "Single-slide summary of the offer, what is included, who it is for, and the pilot price.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

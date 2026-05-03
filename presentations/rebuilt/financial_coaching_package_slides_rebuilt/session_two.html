@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: #F4EEE5;
+      display: grid;
+      grid-template-columns: 43% 57%;
+      font-family: 'Inter', sans-serif;
+      color: #2C2A28;
+    }
+    .left-panel {
+      min-height: 720px;
+      background: linear-gradient(180deg, #143C3A 0%, #1B4B48 100%);
+      color: #F4EEE5;
+      padding-top: 84px;
+      padding-left: 78px;
+      padding-right: 54px;
+    }
+    .eyebrow {
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #B6C6AA;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+      line-height: 1.02;
+      color: #F4EEE5;
+      max-width: 390px;
+      margin-bottom: 26px;
+    }
+    .intro {
+      font-size: 23px;
+      line-height: 1.5;
+      color: rgba(244, 238, 229, 0.92);
+      max-width: 390px;
+      margin-bottom: 34px;
+    }
+    .process-note {
+      width: 360px;
+      border-top: 2px solid rgba(182, 198, 170, 0.7);
+      padding-top: 22px;
+      font-size: 19px;
+      line-height: 1.55;
+      color: rgba(244, 238, 229, 0.84);
+    }
+    .right-panel {
+      min-height: 720px;
+      padding-top: 78px;
+      padding-left: 58px;
+      padding-right: 74px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .step-list {
+      min-height: 430px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .step {
+      min-height: 134px;
+      display: grid;
+      grid-template-columns: 94px 1fr;
+      border-top: 1px solid rgba(20, 60, 58, 0.16);
+      padding-top: 18px;
+    }
+    .step:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+    .step-no {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      line-height: 1;
+      color: rgba(20, 60, 58, 0.22);
+    }
+    .step-title {
+      font-size: 27px;
+      line-height: 1.2;
+      color: #143C3A;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .step-text {
+      max-width: 520px;
+      font-size: 19px;
+      line-height: 1.52;
+      color: #2C2A28;
+    }
+    .outputs {
+      min-height: 128px;
+      border-top: 2px solid rgba(122, 143, 106, 0.55);
+      padding-top: 18px;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      align-items: start;
+      column-gap: 20px;
+    }
+    .outputs-label {
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      font-weight: 600;
+    }
+    .outputs-text {
+      font-size: 22px;
+      line-height: 1.45;
+      color: #143C3A;
+      max-width: 520px;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left-panel">
+      <div class="eyebrow">Session 2</div>
+      <h1>Shared action plan</h1>
+      <div class="intro">The second session turns a clearer money picture into decisions the couple can actually use: what matters now, what can wait, and what to do next together.</div>
+      <div class="process-note">This is where the conversation becomes practical. The goal is not another abstract discussion, but a realistic plan that feels shared, manageable, and clear enough to follow after the call.</div>
+    </section>
+    <section class="right-panel">
+      <div class="step-list">
+        <div class="step">
+          <div class="step-no">01</div>
+          <div>
+            <div class="step-title">Agree realistic priorities</div>
+            <div class="step-text">The couple narrows the conversation down to the few priorities that matter most right now, instead of trying to solve everything at once.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-no">02</div>
+          <div>
+            <div class="step-title">Turn intentions into habits</div>
+            <div class="step-text">The discussion becomes practical routines, simple decisions, and manageable habits that fit real schedules and real pressure.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-no">03</div>
+          <div>
+            <div class="step-title">Define the next actions clearly</div>
+            <div class="step-text">By the end, both partners know what happens next, what to keep focused on, and how to avoid slipping back into another vague money loop.</div>
+          </div>
+        </div>
+      </div>
+      <div class="outputs">
+        <div class="outputs-label">What they leave with</div>
+        <div class="outputs-text">A shared written plan, practical next steps, and clearer agreement on how to move forward without one partner carrying all the mental load.</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

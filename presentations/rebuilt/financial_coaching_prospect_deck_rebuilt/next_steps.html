@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#111}
+    .slide-container{width:1280px;min-height:720px;background:#F4EEE5;display:grid;grid-template-columns:42% 58%;font-family:'Inter',sans-serif;color:#2C2A28}
+    .left{min-height:720px;background:#143C3A;color:#F4EEE5;padding-top:88px;padding-left:80px;padding-right:54px}
+    .kicker{font-size:16px;letter-spacing:.16em;text-transform:uppercase;color:#B6C6AA;font-weight:600;margin-bottom:20px}
+    h1{font-family:'Playfair Display',serif;font-size:48px;line-height:1.04;max-width:320px;margin-bottom:34px}
+    .price{font-family:'Playfair Display',serif;font-size:108px;line-height:.95;margin-bottom:18px}
+    .left-copy{font-size:23px;line-height:1.48;max-width:320px;color:rgba(244,238,229,.9)}
+    .right{min-height:720px;padding-top:92px;padding-left:60px;padding-right:84px;display:flex;flex-direction:column;justify-content:space-between}
+    .intro{font-size:22px;line-height:1.45;max-width:560px;color:#2C2A28;margin-bottom:18px}
+    .step{display:grid;grid-template-columns:88px 1fr;border-top:1px solid rgba(20,60,58,.16);padding-top:16px;min-height:120px}
+    .step:first-of-type{border-top:none;padding-top:0}
+    .num{font-family:'Playfair Display',serif;font-size:48px;line-height:1;color:rgba(20,60,58,.22)}
+    .step-title{font-size:27px;line-height:1.2;color:#143C3A;font-weight:600;margin-bottom:10px}
+    .step-copy{font-size:19px;line-height:1.5;max-width:520px}
+    .footer{padding-top:18px;border-top:2px solid rgba(122,143,106,.45);font-size:18px;line-height:1.5;color:#5A554F;max-width:560px}
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left">
+      <div class="kicker">Pilot offer</div>
+      <h1>Pilot price and enquiry path</h1>
+      <div class="price">£99</div>
+      <div class="left-copy">A low-pressure way to start: enquire first, agree a time, and only then receive payment details.</div>
+    </section>
+    <section class="right">
+      <div>
+        <div class="intro">The process is designed to feel personal and straightforward rather than automated or pushy.</div>
+        <div class="step"><div class="num">01</div><div><div class="step-title">Send a short enquiry</div><div class="step-copy">Share what feels stuck and suggest a couple of times that could work.</div></div></div>
+        <div class="step"><div class="num">02</div><div><div class="step-title">Receive a personal reply</div><div class="step-copy">Andy confirms the best available time and answers any final questions.</div></div></div>
+        <div class="step"><div class="num">03</div><div><div class="step-title">Confirm and pay</div><div class="step-copy">Payment is requested only after the appointment time is agreed.</div></div></div>
+      </div>
+      <div class="footer">This keeps the first step simple and gives couples space to decide whether the fit feels right before committing.</div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "title": "SteadyUs — Couples Budget Reset",
+    "created": 1777827699.5628834,
+    "last_updated": 1777828047.0787914,
+    "total_slides": 8
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "calmer_way",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "what_included",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "session_one",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "session_two",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "why_different",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "who_its_for",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "price_next",
+      "state": "edited",
+      "pageNum": 8
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "SteadyUs — Couples Budget Reset",
+      "summary": "Cover slide introducing the Couples Budget Reset as a calm, practical financial coaching package for couples.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "calmer_way",
+      "title": "A calmer way to sort money together",
+      "summary": "Explain the core promise of the offer: practical money clarity for couples without shame, jargon, or corporate financial language.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_included",
+      "title": "What the package includes",
+      "summary": "Summarize the two live sessions, between-session preparation, written summary, and optional follow-up support.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "session_one",
+      "title": "Session 1: Money clarity",
+      "summary": "Describe how the first session maps the current money picture, surfaces pressure points, and identifies the main sources of friction.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "session_two",
+      "title": "Session 2: Shared action plan",
+      "summary": "Describe how the second session turns discussion into realistic priorities, practical habits, and an actionable shared plan.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "why_different",
+      "title": "Why this feels different",
+      "summary": "Position the offer as personal, first-person, coaching-led support rather than corporate or regulated-advice language.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "who_its_for",
+      "title": "Who it is for",
+      "summary": "Show the intended audience: busy professionals and couples balancing savings, debt, or home goals who want clarity together.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "price_next",
+      "title": "Pilot price and next steps",
+      "summary": "Present the £99 pilot price, future price range, and the low-pressure enquiry-led booking process.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

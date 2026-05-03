@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: #F4EEE5;
+      font-family: 'Inter', sans-serif;
+      color: #2C2A28;
+    }
+    .header {
+      padding-top: 78px;
+      padding-left: 86px;
+      padding-right: 86px;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+    }
+    .header-left { max-width: 640px; }
+    .kicker {
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      line-height: 1.04;
+      color: #143C3A;
+    }
+    .header-note {
+      width: 250px;
+      font-size: 19px;
+      line-height: 1.45;
+      color: #5A554F;
+    }
+    .columns {
+      margin-top: 36px; /* reduced from 54 to save vertical space */
+      margin-left: 86px;
+      margin-right: 86px;
+      min-height: 430px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+    }
+    .col {
+      min-height: 420px;
+      border-left: 2px solid rgba(20, 60, 58, 0.18);
+      padding-top: 8px;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .index {
+      font-family: 'Playfair Display', serif;
+      font-size: 52px;
+      color: rgba(20, 60, 58, 0.22);
+      line-height: 1;
+    }
+    .title {
+      font-size: 29px;
+      line-height: 1.2;
+      color: #143C3A;
+      font-weight: 600;
+      margin-top: 22px;
+      margin-bottom: 18px;
+      max-width: 220px;
+    }
+    .desc {
+      font-size: 20px;
+      line-height: 1.55;
+      color: #2C2A28;
+      max-width: 220px;
+    }
+    .accent {
+      font-size: 15px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #7A8F6A;
+      padding-top: 20px;
+    }
+    .footer {
+      margin-left: 86px;
+      margin-right: 86px;
+      margin-top: 24px; /* reduced from 34 to meet height limit */
+      padding-top: 20px;
+      border-top: 1px solid rgba(20, 60, 58, 0.18);
+      font-size: 18px;
+      color: #5A554F;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="header">
+      <div class="header-left">
+        <div class="kicker">Offer structure</div>
+        <h1>What the package includes</h1>
+      </div>
+      <div class="header-note">Everything is designed to feel focused, manageable, and easy to act on rather than overwhelming.</div>
+    </div>
+    <div class="columns">
+      <div class="col">
+        <div>
+          <div class="index">01</div>
+          <div class="title">Two live coaching sessions</div>
+          <div class="desc">Two guided conversations give the space to understand the current picture and agree a better plan together.</div>
+        </div>
+        <div class="accent">2 × 60 minutes</div>
+      </div>
+      <div class="col">
+        <div>
+          <div class="index">02</div>
+          <div class="title">Between-session preparation</div>
+          <div class="desc">A few simple prompts help the work stay grounded in real life, without turning it into homework overload.</div>
+        </div>
+        <div class="accent">Simple prompts</div>
+      </div>
+      <div class="col">
+        <div>
+          <div class="index">03</div>
+          <div class="title">Written reset summary</div>
+          <div class="desc">After the sessions, the couple receives a concise recap of priorities, next steps, and what to keep focusing on.</div>
+        </div>
+        <div class="accent">Clear follow-through</div>
+      </div>
+      <div class="col">
+        <div>
+          <div class="index">04</div>
+          <div class="title">Optional follow-up support</div>
+          <div class="desc">Couples can add ongoing support later if they want help maintaining momentum after the reset.</div>
+        </div>
+        <div class="accent">Flexible add-on</div>
+      </div>
+    </div>
+    <div class="footer">Pilot package price: £99 · standard pricing expected to move to £129–£149</div>
+  </div>
+</body>
+</html>
