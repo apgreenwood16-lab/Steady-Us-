@@ -1,0 +1,126 @@
+# Project TODO
+
+- [x] Public landing page with Pairwise hero, value proposition, and beta signup call-to-action
+- [x] Beta signup qualification form capturing couple details, primary trade-off, and contact information
+- [x] Couples Trade-Off Planner with baseline inputs for income, savings, debt, and monthly surplus
+- [x] Recommendation engine prioritising savings, debt payoff, and home deposit
+- [x] Three-pillar assessment output for Realism, Sustainability, and Fairness on a 0–10 scale with Green, Amber, and Red states
+- [x] Plain-English summary derived from the three pillars
+- [x] Shared monthly commitment generation and save flow
+- [x] Saved shared plan view with recommendation review, commitment tracking, and monthly review trigger
+- [x] Owner-only admin lead tracker dashboard with source, fit score, status, and follow-up notes
+- [x] Owner notification on every new beta signup with full lead details
+- [x] Pairwise visual theme using deep teal, sage green, warm terracotta, off-white, warm sand, and Inter
+- [x] Database schema, backend procedures, and tests for beta signups, plans, and admin access
+- [x] End-to-end refinement, testing, and launch readiness pass
+- [x] Apply UK-first audience conventions across Pairwise copy, currency, terminology, and planner inputs
+- [x] Trademark and naming risk screen for the Pairwise brand in the UK launch context
+- [x] Backup naming shortlist and launch contingency recommendation if Pairwise is too risky to use
+- [x] User-assisted UK IPO register check for the Pairwise name because the official verification flow is blocking automated access (obsolete after the public rename to SteadyUs)
+- [x] Reassess the Pairwise public launch name after the confirmed UK Pairwise Software Ltd conflict evidence
+- [x] Confirm low-friction rename path for the website so the product does not need to be rebuilt from scratch
+- [x] Reassess fallback names after the reported Nestwise Investments conflict
+- [x] Generate a new public-facing product name shortlist centred on the feeling of doing money planning together
+- [x] Validate the chosen Shared Step name against the reported Shared Steps company conflict before applying any public rename
+- [x] Produce a fresh shortlist of safer public-facing names that preserve the feeling of doing money planning together while avoiding the conflict patterns already found
+- [x] Validate SteadyUs as the preferred replacement name and assess whether it is safe enough for a UK-facing launch
+- [x] Refine the replacement-name shortlist to avoid names that feel too generic or too widely used, including concerns about Common Ground
+- [x] Confirm SteadyUs as the preferred public-facing name because it feels clearer and more accessible than Kindred Plan
+- [x] Rename the public website experience from Pairwise to SteadyUs across copy, UI text, and metadata
+- [x] Remove the remaining internal Pairwise project identifier where feasible so the SteadyUs rebrand feels complete
+- [x] Implement the highest-value post-rename beta operations improvement directly rather than leaving it as a suggestion
+- [x] Add a lead-status filter and CSV export to the SteadyUs admin tracker as the highest-value post-rename beta operations improvement
+- [x] Carry through all remaining recommended SteadyUs launch-preparation steps without pausing for further prioritisation
+- [x] Decide and execute the immediate next pre-launch action rather than deferring the launch sequence
+- [x] Clarify where to set the SteadyUs domain in the launch flow
+- [x] Confirm whether privacy and contact text already exist in the current SteadyUs website
+- [x] Add launch-ready privacy text to the SteadyUs public web app
+- [x] Add a simple public contact method to the SteadyUs landing page
+- [x] Remove unclear 'wedge' wording from the SteadyUs website copy
+- [x] Clarify the live domain and explain where the user can see or change it
+- [x] Explain exactly how SteadyUs beta contact submissions are routed and where leads are visible
+- [x] Fix the planner bills field so users are not blocked by the increments-of-50 validation
+- [x] Clarify why domain choice remains under the user's control before publishing
+- [x] Clarify the practical limits of submission monitoring and what can be automated
+- [x] Clarify the operating model for how I can help run the business versus what requires explicit follow-up tasks
+- [x] Provide a concrete lean-operator roadmap with next steps, order, and timeline estimates
+- [x] Strengthen the SteadyUs beta submission success state with clearer next-step reassurance
+- [x] Improve launch-time lead visibility and operator guidance in the admin lead workflow
+- [x] Confirm and tighten owner notification messaging for new beta submissions
+- [x] Validate the lean-operator intake flow end to end and prepare a publish-ready checkpoint
+- [x] Add a dedicated support email contact path to the SteadyUs launch flow
+- [ ] Implement a confirmation email workflow for new SteadyUs beta submissions if the current stack supports it safely
+- [ ] Give the user concrete domain guidance for final publish
+- [x] Add andy.steadyus@gmail.com as the public SteadyUs support email in the launch flow
+- [x] Update the SteadyUs contact and success-state copy to use the provided support email clearly
+- [ ] Assess and document what is still needed for true automatic confirmation-email sending from SteadyUs
+- [ ] Prepare the SteadyUs support inbox operating model for monitoring and reaction workflows
+- [ ] Clarify the concrete go-live path and timing for SteadyUs launch
+- [ ] Recommend the best launch domain direction for SteadyUs and explain the reasoning clearly
+- [ ] Provide the immediate post-publish checklist and operating next steps for the live SteadyUs domain
+- [ ] Clarify whether the live SteadyUs site can be unpublished and where that control sits in the management UI
+- [ ] Clarify what live traffic-driving actions have and have not yet been executed for SteadyUs
+- [ ] Prepare and execute the first approved acquisition actions for the live SteadyUs site
+- [ ] Provide the concrete immediate next steps for live SteadyUs operations and first traffic actions
+- [x] Fix the live beta-signup form so the hardest-right-now validation is handled cleanly and users can successfully join the beta on the published SteadyUs site
+- [x] Verify that the user's live SteadyUs beta submission reached the lead intake system and is visible operationally
+- [x] Replace the Gmail-based public contact wording with a more suitable SteadyUs launch contact approach
+- [x] Verify that the user's live SteadyUs beta submission reached the lead intake system and is visible operationally
+- [x] Replace the public Gmail-based contact path with a more official branded SteadyUs email approach
+- [x] Define the most practical branded-email path for SteadyUs so the contact experience looks credible at launch
+- [x] Verify the live SteadyUs beta submission submitted with apgreenwood16@gmail.com is present in the owner lead queue
+- [x] Recap all materials created so far for the Financial Coaching Business and restate the current strategy clearly
+- [x] Clarify the Financial Coaching Business launch pricing and reconcile the two-session £129 package with the lighter starter-session options
+- [x] Create a polished slide deck for the Financial Coaching Business two-session £129 package covering pricing, structure, session content, and expected outcomes
+- [x] Write a god-level facilitation framework for leading each coaching session clearly, accessibly, and warmly
+- [x] Define how the Financial Coaching Business can stand out in the market through delivery style, positioning, and client experience
+- [x] Create the Financial Coaching Business landing page copy for the two-session £129 package
+- [x] Create the Financial Coaching Business outreach strategy and message system
+- [x] Create the Financial Coaching Business intake form, booking flow copy, and conversion materials
+- [x] Create the Financial Coaching Business follow-up sequence, testimonial process, and client experience pack
+- [x] Recommend how to use the presentation deck with prospects, including whether to offer a consumer-facing downloadable version
+- [x] Create a shorter downloadable prospect deck for the Money Reset offer
+- [x] Draft booking page and checkout page copy for the £129 package
+- [x] Create a simple testimonial section for the coaching offer
+- [x] Build a 14-day launch sprint plan for the side-hustle launch
+- [x] Design a referral system for early clients
+- [x] Clarify the purpose and use of the 14-day launch sprint plan in the financial coaching asset pack
+- [x] Repair the visual layout of page 2 in the compressed Money Reset prospect deck
+- [x] Repair the visual layout of page 4 in the compressed Money Reset prospect deck
+- [x] Draft the booking page copy for the Money Reset offer
+- [x] Draft the checkout page copy for the Money Reset offer
+- [x] Create a testimonial section for the coaching offer
+- [x] Build the full 14-day launch sprint plan for the offer launch
+- [x] Design the referral system for early clients
+- [x] Implement the Money Reset booking page in the live website
+- [x] Implement the Money Reset checkout page in the live website
+- [x] Add the Money Reset testimonial section to the live website
+- [x] Add the 14-day launch sprint content to the live website experience
+- [x] Add the early-client referral system content to the live website experience
+- [x] Add a public booking page for the Couples Budget Reset offer using the approved conversion copy and scope disclaimer.
+- [x] Add a public checkout page for the £99 pilot offer with clear inclusions, reassurance, and next-step messaging.
+- [x] Add a testimonial section to the main SteadyUs landing page using clearly labelled placeholder trust copy.
+- [x] Add referral-system content to the public site for early-client word-of-mouth growth.
+- [x] Replace temporary personal-email contact wording with branded SteadyUs contact wording across the public site.
+- [x] Fix any compile issues introduced by recent page edits so the public site remains review-ready.
+- [x] Add regression coverage for the new conversion-flow content and contact wording.
+- [x] Remove the phrase "app homework" from the public SteadyUs coaching-offer copy.
+- [x] Remove the confusing 14-day plan section and related references from the public SteadyUs website.
+- [x] Re-test the simplified SteadyUs homepage copy and confirm the preview remains stable.
+- [x] Remove any remaining strategy, operator, or internal-planning language from the public SteadyUs website so all customer-facing pages speak only to prospects and clients.
+- [x] Add a customer-facing FAQ section that answers common booking, fit, timing, and payment questions.
+- [x] Replace the placeholder trust area with a real-testimonial-ready customer-facing section that works even before many testimonials exist.
+- [x] Redesign the booking and checkout journey so couples first submit a short form with suggested times, then receive manual availability confirmation, then payment instructions, then final appointment confirmation.
+- [x] Fix the top booking navigation so it takes visitors to the actual customer-facing booking form.
+- [x] Remove the planner link from the public SteadyUs navigation and homepage call-to-action.
+- [x] Remove any remaining planner-focused positioning from the public SteadyUs website so it is clearly financial coaching only.
+- [x] Personally test every public customer-facing link on SteadyUs and fix any broken or misleading destinations before delivering the update.
+- [x] Rewrite the public SteadyUs coaching copy in a more personal first-person voice so customer-facing pages sound more like the coach directly speaking.
+- [x] Add visitor-facing website notifications so people get clear on-site confirmation after actions such as booking enquiries.
+- [x] Add owner-facing notifications so the site owner is alerted when a new coaching enquiry is submitted.
+- [x] Finish the agreed personal first-person tone updates across the remaining customer-facing SteadyUs pages.
+- [x] Update the public support and booking contact email across SteadyUs to andy.steadyus@gmail.com.
+- [x] Rewrite the homepage hero headline and supporting intro copy so it feels more personal, natural, and accessible.
+- [x] Remove the remaining homepage sentence that still says couples are 'circling the same money conversations' and replace it with warmer, more natural wording.
+- [ ] Prepare a complete Claude handover package with website source, slide source files, and a paste-ready Markdown handover form.
+- [ ] Prepare a repo-ready Claude handover package with packaged website source, presentation recreation materials, and a paste-ready Markdown handover file.

@@ -1,0 +1,1 @@
+ALTER TABLE `betaLeads` ADD `adminNotes` text;

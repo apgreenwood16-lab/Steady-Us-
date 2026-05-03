@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1775721648123,
+      "tag": "0000_nebulous_invaders",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1775722430949,
+      "tag": "0001_big_domino",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1775723004519,
+      "tag": "0002_low_gambit",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1775723609768,
+      "tag": "0003_flimsy_doctor_octopus",
+      "breakpoints": true
+    }
+  ]
+}
