@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { margin: 0; background: #f5f1e8; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      display: grid;
+      grid-template-columns: 34% 66%;
+      background: linear-gradient(180deg, #f5f1e8 0%, #f1ecdf 100%);
+      font-family: 'Inter', sans-serif;
+      color: #2B2B2B;
+    }
+    .left-band {
+      min-height: 720px;
+      background: linear-gradient(180deg, #174C4F 0%, #103b3d 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 56px 44px 52px 44px;
+      color: #f5f1e8;
+    }
+    .mark {
+      width: 72px;
+      height: 72px;
+      border: 2px solid rgba(245,241,232,0.75);
+      position: relative;
+    }
+    .mark::before, .mark::after {
+      content: "";
+      position: absolute;
+      background: #B86A4F;
+    }
+    .mark::before { width: 22px; height: 22px; top: 10px; left: 10px; }
+    .mark::after { width: 22px; height: 22px; right: 10px; bottom: 10px; }
+    .left-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      max-width: 290px;
+    }
+    .left-copy .label {
+      font-size: 14px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+    .left-copy p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: rgba(245,241,232,0.9);
+    }
+    .right-panel {
+      min-height: 720px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 78px 92px 60px 78px;
+      position: relative;
+    }
+    .eyebrow {
+      font-size: 16px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #B86A4F;
+      margin-bottom: 22px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 64px;
+      line-height: 0.96;
+      color: #174C4F;
+      max-width: 700px;
+      margin-bottom: 24px;
+    }
+    .subtitle {
+      font-size: 28px;
+      line-height: 1.35;
+      max-width: 650px;
+      color: #2B2B2B;
+      margin-bottom: 36px;
+    }
+    .rule {
+      width: 160px;
+      height: 4px;
+      background: #B86A4F;
+      margin-bottom: 28px;
+    }
+    .footer-note {
+      font-size: 18px;
+      color: #5d615f;
+    }
+    .corner-block {
+      position: absolute;
+      right: 78px;
+      top: 68px;
+      width: 180px;
+      height: 180px;
+      border-top: 2px solid rgba(23,76,79,0.18);
+      border-right: 2px solid rgba(23,76,79,0.18);
+    }
+    .corner-block::after {
+      content: "";
+      position: absolute;
+      width: 68px;
+      height: 68px;
+      background: rgba(184,106,79,0.14);
+      right: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left-band">
+      <div class="mark"></div>
+      <div class="left-copy">
+        <div class="label">SteadyUs</div>
+        <p>A calmer, more practical way for couples to understand money together and move forward with a shared plan.</p>
+      </div>
+    </section>
+    <section class="right-panel">
+      <div class="corner-block"></div>
+      <div class="eyebrow">Client guide</div>
+      <h1>Couples Budget Reset</h1>
+      <div class="rule"></div>
+      <div class="subtitle">What to expect before you start, what happens in each session, and what you leave with at the end.</div>
+      <div class="footer-note">Two-session budgeting support for couples who want clarity without jargon or pressure.</div>
+    </section>
+  </div>
+</body>
+</html>

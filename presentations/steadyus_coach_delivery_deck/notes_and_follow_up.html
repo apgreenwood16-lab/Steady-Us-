@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { margin: 0; background: #f5f1e8; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px; /* keep as required */
+      background: linear-gradient(180deg, #f5f1e8 0%, #f1ecdf 100%);
+      font-family: 'Inter', sans-serif;
+      color: #2F3432;
+    }
+    .frame {
+      min-height: 720px; /* keep as required */
+      padding-top: 50px; /* must not change */
+      padding-left: 72px;
+      padding-right: 72px;
+      padding-bottom: 18px; /* small bottom padding to reduce overflow risk */
+    }
+    .eyebrow {
+      font-size: 14px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #B86A4F;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 33px;
+      line-height: 1.08;
+      color: #174C4F;
+      margin-bottom: 12px; /* slightly reduced */
+      max-width: 760px;
+    }
+    .intro {
+      font-size: 18px;
+      line-height: 1.48;
+      color: #434946;
+      max-width: 760px; /* narrower to reduce wrap height */
+      margin-bottom: 10px; /* reduced */
+    }
+    .upper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px; /* reduced */
+      margin-bottom: 8px; /* reduced */
+    }
+    .panel {
+      border-top: 1px solid rgba(23,76,79,0.2);
+      min-height: 160px; /* reduced further */
+      padding-top: 6px; /* reduced */
+    }
+    .panel h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      line-height: 1.12;
+      color: #174C4F;
+      margin-bottom: 8px;
+      max-width: 360px;
+    }
+    .row {
+      min-height: 36px; /* reduced */
+      border-top: 1px solid rgba(184,106,79,0.18);
+      padding-top: 4px; /* reduced */
+      margin-bottom: 4px; /* small spacing between rows */
+    }
+    .row:first-of-type {
+      border-top: none;
+      padding-top: 0;
+      margin-bottom: 6px;
+    }
+    .label {
+      font-size: 13px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #B86A4F;
+      margin-bottom: 4px;
+    }
+    .row p {
+      font-size: 16px; /* must not shrink */
+      line-height: 1.36; /* slightly tighter to save vertical space */
+      color: #454b48;
+      max-width: 500px;
+    }
+    .followup {
+      display: grid;
+      grid-template-columns: 34% 66%;
+      gap: 12px;
+      background: rgba(23,76,79,0.05);
+      border-top: 1px solid rgba(23,76,79,0.2);
+      min-height: 80px; /* reduced */
+      padding-top: 8px; /* reduced */
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-bottom: 6px;
+    }
+    .followup h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      color: #174C4F;
+      max-width: 280px;
+      margin-bottom: 6px;
+    }
+    .followup p {
+      font-size: 17px;
+      line-height: 1.4; /* slightly tighter */
+      color: #414845;
+      margin-bottom: 6px;
+      max-width: 760px;
+    }
+    .accent { color: #B86A4F; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="frame">
+      <div class="eyebrow">Notes and follow-up</div>
+      <h1>Document clearly and close with usable next steps</h1>
+      <div class="intro">Good documentation should support clarity, continuity, and calm follow-through. Keep it focused and practical.</div>
+
+      <section class="upper">
+        <div class="panel">
+          <h2>Use the notes template to capture what actually matters</h2>
+          <div class="row">
+            <div class="label">What to capture</div>
+            <p>Record the couple’s tone, main pressure points, recurring friction, and the few issues that matter next.</p>
+          </div>
+          <div class="row">
+            <div class="label">How to write it</div>
+            <p>Summarise the pattern plainly; focus on clarity, uneven load, avoidance, decisions, and ownership.</p>
+          </div>
+          <div class="row">
+            <div class="label">What to avoid</div>
+            <p>Avoid data dumps, moral verdicts, or pseudo-advice. Keep notes to the essentials.</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Run a quick delivery quality check after each session</h2>
+          <div class="row">
+            <div class="label">Tone check</div>
+            <p>Was the conversation calm, practical, and balanced for both partners?</p>
+          </div>
+          <div class="row">
+            <div class="label">Scope check</div>
+            <p>Did the session stay within budgeting and organisation, not specialist advice?</p>
+          </div>
+          <div class="row">
+            <div class="label">Outcome check</div>
+            <p>Did they leave clearer with a specific next step to act on?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="followup">
+        <h2>Written follow-up should stay concise and practical</h2>
+        <div>
+          <p>Reinforce the main priorities and agreed next steps in plain language. Keep it short and actionable; add a brief <span class="accent">scope reminder</span> if needed.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

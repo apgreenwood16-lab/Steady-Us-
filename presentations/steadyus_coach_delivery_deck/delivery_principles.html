@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { margin: 0; background: #f5f1e8; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: linear-gradient(180deg, #f5f1e8 0%, #f1ecdf 100%);
+      font-family: 'Inter', sans-serif;
+      color: #2F3432;
+    }
+    .frame {
+      min-height: 720px;
+      padding-top: 54px;
+      padding-left: 72px;
+      padding-right: 72px;
+    }
+    .eyebrow {
+      font-size: 14px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #B86A4F;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 34px;
+      line-height: 1.08;
+      color: #174C4F;
+      margin-bottom: 14px;
+      max-width: 760px;
+    }
+    .intro {
+      font-size: 19px;
+      line-height: 1.45;
+      color: #434946;
+      max-width: 860px;
+      margin-bottom: 34px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+      margin-bottom: 34px;
+    }
+    .principle {
+      border-top: 1px solid rgba(23,76,79,0.22);
+      padding-top: 18px;
+      min-height: 238px;
+    }
+    .principle h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      line-height: 1.12;
+      color: #174C4F;
+      margin-bottom: 12px;
+      max-width: 250px;
+    }
+    .principle p {
+      font-size: 17px;
+      line-height: 1.5;
+      color: #464c49;
+      max-width: 318px;
+    }
+    .full {
+      display: grid;
+      grid-template-columns: 31% 69%;
+      gap: 24px;
+      border-top: 1px solid rgba(184,106,79,0.35);
+      background: rgba(23,76,79,0.05);
+      padding-top: 22px;
+      padding-left: 22px;
+      padding-right: 22px;
+      min-height: 170px;
+    }
+    .full .title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+      color: #174C4F;
+    }
+    .full p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #3f4643;
+      max-width: 720px;
+    }
+    .accent { color: #B86A4F; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="frame">
+      <div class="eyebrow">Delivery principles</div>
+      <h1>Lead with calm, clarity, and shared ownership</h1>
+      <div class="intro">The offer works best when the coach helps the couple see the same picture at the same time, then narrows the work into a few realistic next steps. The structure should feel steady rather than corrective.</div>
+
+      <div class="grid">
+        <section class="principle">
+          <h2>Calm over pressure</h2>
+          <p>Lower judgement, slow the pace, and keep the conversation usable. If the session feels intense, overloaded, or corrective, the couple is less likely to speak honestly.</p>
+        </section>
+        <section class="principle">
+          <h2>Clarity over complexity</h2>
+          <p>The goal is not technical analysis. The goal is a clearer shared view of income, spending pressure, friction loops, and what needs attention first.</p>
+        </section>
+        <section class="principle">
+          <h2>Shared ownership and practical movement</h2>
+          <p>Both partners should leave knowing what is happening next. Progress is measured in usable decisions, not in producing a perfect financial system in one go.</p>
+        </section>
+      </div>
+
+      <section class="full">
+        <div class="title">Scope boundary stays explicit</div>
+        <p>This package covers <span class="accent">budgeting support and financial organisation</span> only. It is not regulated advice on investments, pensions, tax, mortgage products, or legal matters. It is also not therapy, crisis support, debt counselling, or dispute mediation. When specialist issues arise, acknowledge them clearly and redirect back to the next practical decision that still sits inside the coaching remit.</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

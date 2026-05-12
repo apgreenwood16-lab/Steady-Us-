@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "title": "SteadyUs — Couples Budget Reset",
+    "created": 1778535031.9016361,
+    "last_updated": 1778535252.3695388,
+    "total_slides": 6
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_this_is",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "before_session_one",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "session_one",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "between_and_session_two",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "after_support",
+      "state": "edited",
+      "pageNum": 6
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "SteadyUs — Couples Budget Reset",
+      "summary": "A calm cover slide introducing the client-facing session journey and what the package is designed to help couples do.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_this_is",
+      "title": "A calmer way to sort money together",
+      "summary": "Explain what the package is for, what couples can expect, and what it is not, using reassuring language and clear scope boundaries.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "before_session_one",
+      "title": "Start without having it all sorted",
+      "summary": "Set expectations before Session 1 and reduce preparation pressure by showing what clients need to do before the first call.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "session_one",
+      "title": "Session 1 brings clarity",
+      "summary": "Show what happens in Session 1 and the specific outcomes couples should expect from the money-clarity conversation.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "between_and_session_two",
+      "title": "Light follow-through, then a shared plan",
+      "summary": "Explain the light between-session prompts and what Session 2 does to turn clarity into practical next steps.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "after_support",
+      "title": "You leave with something usable",
+      "summary": "Show what clients receive after the sessions, including the written summary and optional follow-up support.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { margin: 0; background: #f5f1e8; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: linear-gradient(180deg, #f5f1e8 0%, #f1ecdf 100%);
+      font-family: 'Inter', sans-serif;
+      color: #2B2B2B;
+    }
+    .frame {
+      min-height: 720px;
+      padding-top: 58px;
+      padding-left: 72px;
+      padding-right: 72px;
+    }
+    .eyebrow {
+      font-size: 14px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #B86A4F;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 30px;
+      color: #174C4F;
+      margin-bottom: 16px;
+    }
+    .intro {
+      max-width: 980px;
+      font-size: 21px;
+      line-height: 1.45;
+      color: #2f3432;
+      margin-bottom: 20px; /* reduced to pull grid up */
+    }
+    .rule {
+      width: 100%;
+      height: 1px;
+      background: rgba(23,76,79,0.18);
+      margin-bottom: 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 34px;
+      align-items: start;
+    }
+    .panel {
+      min-height: 350px; /* reduced to save vertical space */
+      border-top: 4px solid #174C4F;
+      padding-top: 12px; /* reduced */
+    }
+    .panel.right {
+      border-top-color: #B86A4F;
+    }
+    .panel h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      color: #174C4F;
+      margin-bottom: 18px;
+    }
+    .right h2 { color: #8a503b; }
+    .item {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 14px;
+      margin-bottom: 12px; /* tightened */
+      align-items: start;
+    }
+    .index {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 20px;
+      color: #174C4F;
+      line-height: 1;
+    }
+    .right .index { color: #B86A4F; }
+    .copy strong {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 4px;
+      color: #232826;
+    }
+    .copy span {
+      display: block;
+      font-size: 16px;
+      line-height: 1.45;
+      color: #47504d;
+    }
+    .foot {
+      margin-top: 24px;
+      font-size: 16px;
+      line-height: 1.45;
+      color: #5a5f5d;
+      max-width: 1100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="frame">
+      <div class="eyebrow">What this package is for</div>
+      <h1>A calmer way to sort money together</h1>
+      <div class="intro">The Couples Budget Reset is designed to help you understand your money situation together, reduce confusion, and leave with a clearer shared plan. It focuses on budgeting support and financial organisation, not regulated advice.</div>
+      <div class="rule"></div>
+      <div class="grid">
+        <section class="panel">
+          <h2>What you can expect</h2>
+          <div class="item"><div class="index">01</div><div class="copy"><strong>A calmer conversation</strong><span>Sessions reduce pressure and help you both see the same picture more clearly.</span></div></div>
+          <div class="item"><div class="index">02</div><div class="copy"><strong>Practical support</strong><span>Focus is on getting organised together, not creating a perfect system overnight.</span></div></div>
+          <div class="item"><div class="index">03</div><div class="copy"><strong>Shared priorities</strong><span>You leave with clear next steps, ownership, and a usable plan.</span></div></div>
+          <div class="item"><div class="index">04</div><div class="copy"><strong>A written summary</strong><span>After sessions you receive a concise recap of priorities, decisions, and focus points.</span></div></div>
+        </section>
+        <section class="panel right">
+          <h2>What this is not</h2>
+          <div class="item"><div class="index">01</div><div class="copy"><strong>Not regulated financial advice</strong><span>This does not include investment, pension, tax, or mortgage-product recommendations.</span></div></div>
+          <div class="item"><div class="index">02</div><div class="copy"><strong>Not debt or legal support</strong><span>Specialist debt, dispute, or legal issues need separate expert help.</span></div></div>
+          <div class="item"><div class="index">03</div><div class="copy"><strong>Not therapy</strong><span>Sessions focus on money organisation and next steps, not therapeutic support.</span></div></div>
+          <div class="item"><div class="index">04</div><div class="copy"><strong>Not about judgement</strong><span>You do not need to arrive fully organised—the point is to create clarity from where you are now.</span></div></div>
+        </section>
+      </div>
+      <div class="foot">Best fit: couples who are doing reasonably well on paper but still feel stretched, disorganised, or stuck when it comes to money.</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { margin: 0; background: #f5f1e8; }
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      background: linear-gradient(180deg, #f5f1e8 0%, #f1ecdf 100%);
+      font-family: 'Inter', sans-serif;
+      color: #2B2B2B;
+    }
+    .frame {
+      min-height: 720px;
+      padding-top: 56px;
+      padding-left: 72px;
+      padding-right: 72px;
+    }
+    .eyebrow {
+      font-size: 14px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #B86A4F;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 30px;
+      line-height: 1.08;
+      color: #174C4F;
+      margin-bottom: 14px;
+    }
+    .intro {
+      max-width: 930px;
+      font-size: 20px;
+      line-height: 1.45;
+      color: #333937;
+      margin-bottom: 28px;
+    }
+    .rule {
+      width: 100%;
+      height: 1px;
+      background: rgba(23,76,79,0.18);
+      margin-bottom: 26px;
+    }
+    .journey {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 26px;
+      align-items: start;
+      margin-bottom: 26px;
+    }
+    .step {
+      min-height: 260px;
+      border-top: 4px solid #174C4F;
+      padding-top: 18px;
+    }
+    .step:nth-child(2) { border-top-color: #3f6d69; }
+    .step:nth-child(3) { border-top-color: #B86A4F; }
+    .num {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 34px;
+      line-height: 1;
+      color: #174C4F;
+      margin-bottom: 16px;
+    }
+    .step:nth-child(3) .num { color: #B86A4F; }
+    .step h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 23px;
+      line-height: 1.15;
+      color: #174C4F;
+      margin-bottom: 10px;
+      max-width: 270px;
+    }
+    .step p {
+      font-size: 17px;
+      line-height: 1.48;
+      color: #48504d;
+      max-width: 310px;
+    }
+    .bottom {
+      display: grid;
+      grid-template-columns: 58% 42%;
+      gap: 28px;
+      align-items: start;
+      border-top: 1px solid rgba(23,76,79,0.18);
+      padding-top: 18px;
+    }
+    .outcome-title,
+    .reassure-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .outcome-title { color: #174C4F; }
+    .reassure-title { color: #B86A4F; }
+    .bottom p {
+      font-size: 17px;
+      line-height: 1.5;
+      color: #434a47;
+      max-width: 500px;
+    }
+    .accent { color: #174C4F; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="frame">
+      <div class="eyebrow">Session 1</div>
+      <h1>Session 1 brings clarity</h1>
+      <div class="intro">The first session is designed to slow things down and make the current money picture easier to understand together. It helps both of you see what is really going on before trying to fix everything at once.</div>
+      <div class="rule"></div>
+
+      <section class="journey">
+        <div class="step">
+          <div class="num">01</div>
+          <h2>See the full picture</h2>
+          <p>We bring income, spending, savings, obligations, and current pressures into one shared view so the conversation feels clearer and less scattered.</p>
+        </div>
+        <div class="step">
+          <div class="num">02</div>
+          <h2>Name what feels heavy</h2>
+          <p>We look at the areas that feel tense, unclear, or repeatedly avoided, so the main pressure points become visible instead of vague.</p>
+        </div>
+        <div class="step">
+          <div class="num">03</div>
+          <h2>Leave with clearer focus</h2>
+          <p>By the end of the session, you should have a stronger sense of what is causing friction and what needs practical attention next.</p>
+        </div>
+      </section>
+
+      <section class="bottom">
+        <div>
+          <div class="outcome-title">Main outcome</div>
+          <p>You leave Session 1 with a <span class="accent">shared starting point</span>: a clearer picture of where things stand now, what feels most pressured, and which issues are worth focusing on in Session 2.</p>
+        </div>
+        <div>
+          <div class="reassure-title">Helpful reminder</div>
+          <p>This session is about understanding the situation properly. It is not about solving every issue immediately or arriving with a perfect system already in place.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
