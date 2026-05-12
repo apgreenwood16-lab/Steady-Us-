@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SteadyUs — Coach Call Notes Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --paper: #fffdf8;
+      --ink: #293230;
+      --muted: #59615f;
+      --teal: #174c4f;
+      --terracotta: #b86a4f;
+      --rule: rgba(23,76,79,0.14);
+      --soft: rgba(23,76,79,0.05);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 56px 36px 72px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+      align-items: end;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-size: 13px;
+      color: var(--terracotta);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      color: var(--teal);
+      font-size: 48px;
+      line-height: 1.04;
+      margin: 0 0 16px;
+      max-width: 640px;
+    }
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 19px;
+      max-width: 620px;
+    }
+    .summary {
+      background: var(--soft);
+      border-top: 2px solid rgba(184,106,79,0.35);
+      padding: 20px 22px;
+    }
+    .summary h2 {
+      margin: 0 0 10px;
+      color: var(--teal);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+    }
+    .summary p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    section {
+      margin-bottom: 26px;
+      background: var(--paper);
+      padding: 26px 26px 16px;
+      border-top: 1px solid var(--rule);
+    }
+    section h2 {
+      margin: 0 0 12px;
+      color: var(--teal);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      line-height: 1.1;
+    }
+    section > p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 840px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      margin-top: 8px;
+      font-size: 15px;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 12px 10px;
+      border-top: 1px solid rgba(23,76,79,0.12);
+    }
+    th {
+      color: var(--teal);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 17px;
+      background: rgba(23,76,79,0.04);
+    }
+    .blank {
+      min-height: 48px;
+      color: #9aa19f;
+    }
+    .closing {
+      padding: 22px 24px;
+      background: rgba(23,76,79,0.05);
+      border-top: 1px solid var(--rule);
+      color: #4a5350;
+      font-size: 17px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 18px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .meta div {
+      border-top: 1px solid var(--rule);
+      padding-top: 10px;
+    }
+    @media print {
+      body { background: white; }
+      .page { max-width: none; padding: 24px; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">SteadyUs internal working form</div>
+        <h1>Coach Call Notes Form</h1>
+        <p>This working sheet captures the practical pattern, decisions, and follow-up points from Session 1 and Session 2 without turning the notes into a technical report.</p>
+      </div>
+      <aside class="summary">
+        <h2>Use this form to track</h2>
+        <p>Opening tone, pressure points, friction patterns, priorities, ownership, follow-up notes, and whether the session stayed calm, practical, and within scope.</p>
+      </aside>
+    </header>
+
+    <section>
+      <h2>Client details</h2>
+      <table>
+        <thead><tr><th>Field</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Couple names</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Session number</td><td class="blank">Session 1 / Session 2</td></tr>
+          <tr><td>Date and time</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Delivery format</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Main contact</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Follow-up due date</td><td class="blank">&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Opening notes</h2>
+      <p>Record how the couple arrived, what felt tense or avoidant, and whether any extra grounding or reassurance was needed at the start.</p>
+      <table>
+        <thead><tr><th>Opening area</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>General tone at the start</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Key concerns voiced early</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Signs of tension, avoidance, or imbalance</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Anything needing gentle reassurance</td><td class="blank">&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Session 1 notes</h2>
+      <p>Use this section to capture the real picture without turning the notes into a data dump. Focus on what is actually creating friction or confusion.</p>
+      <table>
+        <thead><tr><th>Session 1 area</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Current money picture</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Main spending pressures</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Savings or debt themes</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Organisational gaps or confusion</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Repeating money conversations or friction loops</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Uneven mental load or responsibility patterns</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>What feels most important to clarify next</td><td class="blank">&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Between-session prompts</h2>
+      <p>Record the light prompts or follow-up questions sent after Session 1 so Session 2 starts with continuity rather than drift.</p>
+      <table>
+        <thead><tr><th>Prompt area</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Main reflection prompt</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Any information requested</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Priority topics to revisit in Session 2</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Risks of drift or avoidance before next session</td><td class="blank">&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Session 2 notes</h2>
+      <p>Capture the decisions and agreements that make the plan usable in real life, with clear ownership and realistic follow-through.</p>
+      <table>
+        <thead><tr><th>Session 2 area</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Main priorities agreed</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Decisions made together</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Habits or routines introduced</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Ownership of next actions</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Anything deferred for later</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Risks to follow-through</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>What would make the plan easier to sustain</td><td class="blank">&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Delivery quality check and follow-up draft</h2>
+      <table>
+        <thead><tr><th>Checkpoint</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Did the conversation feel calm and practical?</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Did both partners contribute?</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Did the session avoid turning into technical advice?</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Did the couple leave with more clarity than they arrived with?</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Was the next step explicit?</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Main priorities for written follow-up</td><td class="blank">&nbsp;</td></tr>
+          <tr><td>Agreed next steps for written follow-up</td><td class="blank">&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="closing">
+      The aim of these notes is not to create a formal report. The aim is to capture enough detail to support a calm, useful, practical client experience.
+      <div class="meta">
+        <div><strong>Audience:</strong> Coach / internal use</div>
+        <div><strong>Use:</strong> Live note-taking and follow-up drafting</div>
+        <div><strong>Format:</strong> Polished HTML working form</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

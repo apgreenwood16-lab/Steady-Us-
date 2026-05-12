@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SteadyUs — Coach Delivery Playbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --paper: #fcfaf4;
+      --ink: #27312f;
+      --muted: #56615d;
+      --teal: #174c4f;
+      --terracotta: #b86a4f;
+      --rule: rgba(23,76,79,0.14);
+      --soft: rgba(23,76,79,0.05);
+      --warn: rgba(184,106,79,0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+    }
+    .page {
+      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 56px 36px 72px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 24px;
+      align-items: end;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-size: 13px;
+      color: var(--terracotta);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      color: var(--teal);
+      font-size: 52px;
+      line-height: 1.03;
+      margin: 0 0 16px;
+      max-width: 640px;
+    }
+    .hero p {
+      font-size: 19px;
+      color: var(--muted);
+      margin: 0;
+      max-width: 630px;
+    }
+    .summary {
+      background: var(--soft);
+      border-top: 2px solid rgba(184,106,79,0.35);
+      padding: 20px 22px;
+    }
+    .summary h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      color: var(--teal);
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .summary p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    section {
+      margin-bottom: 30px;
+      background: var(--paper);
+      padding: 28px 28px 18px;
+      border-top: 1px solid var(--rule);
+    }
+    section h2 {
+      margin: 0 0 12px;
+      color: var(--teal);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 30px;
+      line-height: 1.1;
+    }
+    section > p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 860px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 16px;
+      background: white;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 14px 12px;
+      border-top: 1px solid rgba(23,76,79,0.12);
+    }
+    th {
+      color: var(--teal);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      background: rgba(23,76,79,0.04);
+    }
+    .warning {
+      background: var(--warn);
+      border-top: 1px solid rgba(184,106,79,0.28);
+    }
+    .quote {
+      padding: 24px 28px;
+      background: rgba(23,76,79,0.05);
+      border-top: 1px solid var(--rule);
+      font-size: 20px;
+      color: #3e4745;
+    }
+    .quote strong {
+      color: var(--teal);
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 18px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .meta div {
+      border-top: 1px solid var(--rule);
+      padding-top: 10px;
+    }
+    @media print {
+      body { background: white; }
+      .page { max-width: none; padding: 24px; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">SteadyUs internal playbook</div>
+        <h1>Coach Delivery Playbook</h1>
+        <p>This operating guide turns the Couples Budget Reset into a structured delivery asset you can review before calls, use in training, or hand to another coach supporting the same offer.</p>
+      </div>
+      <aside class="summary">
+        <h2>Working summary</h2>
+        <p>Session 1 helps the couple see the real picture together. Session 2 helps them agree what to do next and how to make that plan work in real life.</p>
+      </aside>
+    </header>
+
+    <section>
+      <h2>Purpose of the offer</h2>
+      <p>The Couples Budget Reset is designed for couples who feel capable but financially disorganised, stretched, or stuck. The work should create calmer conversations, clearer priorities, and a shared plan that feels realistic enough to follow.</p>
+      <table>
+        <thead><tr><th>Core principle</th><th>What it means in delivery</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Calm over pressure</strong></td><td>The sessions should feel steady, non-judgemental, and practical rather than intense or corrective.</td></tr>
+          <tr><td><strong>Clarity over complexity</strong></td><td>The goal is not technical analysis. The goal is a clearer shared picture and better decisions.</td></tr>
+          <tr><td><strong>Shared ownership</strong></td><td>Both partners should leave knowing what happens next rather than one person carrying the mental load alone.</td></tr>
+          <tr><td><strong>Practical movement</strong></td><td>Every session should end with decisions, priorities, or next steps that can actually be used.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="warning">
+      <h2>Scope boundary</h2>
+      <p>This work covers budgeting support and financial organisation only. It does not include regulated financial, investment, pension, tax, mortgage-product, or legal advice. It is also not debt counselling, therapy, crisis support, or dispute mediation.</p>
+      <table>
+        <thead><tr><th>If this comes up</th><th>Coach response</th></tr></thead>
+        <tbody>
+          <tr><td>Specialist advice request</td><td>Acknowledge it clearly, note that it sits outside scope, and return to the next practical organisational decision inside the coaching remit.</td></tr>
+          <tr><td>Emotionally loaded conflict</td><td>Reduce blame, slow the conversation, and keep attention on clarity and shared process rather than taking sides.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Overall delivery rhythm</h2>
+      <p>The package works best when the first session creates visibility and the second session creates movement. The first session should not rush into fixing everything. The second session should not reopen every possible issue.</p>
+      <table>
+        <thead><tr><th>Stage</th><th>Main job</th><th>Primary outcome</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Session 1</strong></td><td>Make the real money picture visible</td><td>Shared clarity about current reality and pressure points</td></tr>
+          <tr><td><strong>Between sessions</strong></td><td>Keep momentum light and manageable</td><td>A few simple prompts, not heavy homework</td></tr>
+          <tr><td><strong>Session 2</strong></td><td>Turn clarity into practical decisions</td><td>A shared action plan with realistic next steps</td></tr>
+          <tr><td><strong>After the package</strong></td><td>Reinforce follow-through</td><td>Written summary and optional follow-up support</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Before Session 1</h2>
+      <p>The goal before the first call is to reduce friction and help the couple arrive ready to talk honestly. Keep the tone personal and low-pressure.</p>
+      <table>
+        <thead><tr><th>Pre-session aim</th><th>Practical approach</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Lower emotional pressure</strong></td><td>Reassure them that the point is clarity, not judgement.</td></tr>
+          <tr><td><strong>Set expectations</strong></td><td>Explain that Session 1 is about understanding the current picture, not solving everything immediately.</td></tr>
+          <tr><td><strong>Reduce preparation burden</strong></td><td>Ask only for light preparation or simple prompts rather than extensive documents.</td></tr>
+          <tr><td><strong>Encourage joint attendance</strong></td><td>Position the session as shared work rather than one partner being assessed.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Session 1: money clarity</h2>
+      <p>Session 1 is designed to slow the conversation down and make the current situation visible. The core objective is to help both partners see the same picture at the same time.</p>
+      <table>
+        <thead><tr><th>Stage</th><th>What to do</th><th>What good looks like</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Open the conversation</strong></td><td>Set a calm tone, explain the session aim, and reinforce that the goal is clarity rather than blame.</td><td>Both partners feel they can contribute without being judged.</td></tr>
+          <tr><td><strong>Map the current money picture</strong></td><td>Bring income, spending, savings, obligations, and current pressures into one shared view.</td><td>The couple can describe their situation in simple, concrete terms.</td></tr>
+          <tr><td><strong>Surface pressure points</strong></td><td>Notice where money feels stretched, avoided, emotionally loaded, or repeatedly postponed.</td><td>Hidden stress becomes discussable rather than vague.</td></tr>
+          <tr><td><strong>Identify friction patterns</strong></td><td>Highlight recurring loops such as avoidance, confusion, overload, uneven responsibility, or repeated disagreements.</td><td>The couple can name what keeps happening and why it matters.</td></tr>
+          <tr><td><strong>Close with focus</strong></td><td>Summarise the few issues that matter most and frame what Session 2 needs to solve next.</td><td>They leave with clarity rather than overwhelm.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Between sessions and Session 2</h2>
+      <p>The gap between sessions should keep momentum alive without creating homework overload. Session 2 should then turn understanding into usable decisions.</p>
+      <table>
+        <thead><tr><th>Stage</th><th>Coach focus</th><th>Desired result</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Between sessions</strong></td><td>Send simple prompts, keep the work manageable, and help the couple notice what matters most.</td><td>Session 2 begins with momentum rather than drift.</td></tr>
+          <tr><td><strong>Reconnect to Session 1</strong></td><td>Restate the main pressure points and confirm what feels most important now.</td><td>The second session feels focused and connected.</td></tr>
+          <tr><td><strong>Agree realistic priorities</strong></td><td>Narrow the conversation to the few issues that deserve attention first.</td><td>The couple stops trying to fix everything at once.</td></tr>
+          <tr><td><strong>Turn intentions into habits</strong></td><td>Translate priorities into practical routines, boundaries, or recurring decisions.</td><td>The plan feels livable, not idealised.</td></tr>
+          <tr><td><strong>Define next actions clearly</strong></td><td>Agree who will do what, what happens next, and what success looks like in the next period.</td><td>Both partners leave with clarity rather than assumption.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Recommended outputs after the package</h2>
+      <p>The written summary should sound calm and practical, using plain language rather than formal advisory language.</p>
+      <table>
+        <thead><tr><th>Output</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Priority recap</strong></td><td>Remind the couple what matters most right now.</td></tr>
+          <tr><td><strong>Agreed next steps</strong></td><td>Record the practical actions they decided on.</td></tr>
+          <tr><td><strong>Focus points</strong></td><td>Highlight the habits, boundaries, or conversations to keep returning to.</td></tr>
+          <tr><td><strong>Scope reminder</strong></td><td>Reconfirm that the work is coaching and organisation support, not regulated advice.</td></tr>
+          <tr><td><strong>Optional follow-up</strong></td><td>Offer check-in options if helpful for accountability or continuity.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="quote"><strong>Internal delivery sentence:</strong> Session 1 helps the couple see the real picture together; Session 2 helps them agree what to do next and how to make that plan work in real life.</div>
+    <div class="meta">
+      <div><strong>Audience:</strong> Coach / internal use</div>
+      <div><strong>Use:</strong> Delivery prep, training, consistency</div>
+      <div><strong>Format:</strong> Polished HTML playbook</div>
+    </div>
+  </main>
+</body>
+</html>
