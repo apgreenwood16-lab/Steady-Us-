@@ -12,6 +12,7 @@ Use this first if you just want the fastest answer.
 | --- | --- | --- |
 | Are you trying to **sell or explain the offer**? | Use one of the **sales decks** below. | Go to the next question. |
 | Are you trying to **help a client understand the session process**? | `CLIENT DELIVERY - SteadyUs Client Session Guide.pdf` | Go to the next question. |
+| Are you trying to **help a client prepare before Session 1**? | `CLIENT DELIVERY - SteadyUs Pre-Session Worksheet.pdf` | Go to the next question. |
 | Are you trying to **run the sessions consistently yourself**? | `INTERNAL ONLY - SteadyUs Coach Delivery Playbook.pdf` | Go to the next question. |
 | Are you trying to **take notes during or after a session**? | `INTERNAL ONLY - SteadyUs Coach Call Notes Form.pdf` | Go to the next question. |
 | Are you trying to **edit the underlying wording** behind the delivery files? | Use the labeled **SOURCE** Markdown files. | Go to the next question. |
@@ -27,6 +28,7 @@ If you want the shortest possible version, use this table first.
 | Give someone a shorter intro to the offer | `SALES - SteadyUs Prospect Deck.pdf` | This is the shorter, lighter sales version. |
 | Show the offer on one page only | **Couples Budget Reset at a glance** | This is the compressed one-slide summary. |
 | Help a client understand what will happen in the sessions | `CLIENT DELIVERY - SteadyUs Client Session Guide.pdf` | This is the practical client-facing delivery guide. |
+| Help a client prepare thoughts before Session 1 | `CLIENT DELIVERY - SteadyUs Pre-Session Worksheet.pdf` | This gives the couple a simple worksheet to complete before the first session. |
 | Run the sessions consistently yourself | `INTERNAL ONLY - SteadyUs Coach Delivery Playbook.pdf` | This is the internal facilitation guide. |
 | Take structured notes during or after a session | `INTERNAL ONLY - SteadyUs Coach Call Notes Form.pdf` | This is the working form for capturing what happened and what comes next. |
 | Edit the wording behind the delivery materials | `CLIENT DELIVERY - SOURCE - Client Session Checklist.md`, `INTERNAL ONLY - SOURCE - Session Delivery Plan.md`, `INTERNAL ONLY - SOURCE - Coach Call Notes Template.md` | These are the source text documents that sit behind the polished delivery PDFs. |
@@ -53,6 +55,7 @@ These are the materials you use when you are **delivering the service**, not sel
 | **SteadyUs — Couples Budget Reset** (client session deck) | Client-facing session walkthrough | Use before or during a client-facing conversation when you want to explain the process clearly. | Do not use it as your internal facilitation manual. |
 | **SteadyUs — Coach Delivery Guide** (coach deck) | Internal live facilitation deck | Use when you want a visual internal guide for how to run the sessions. | Do not send it to clients as their main guide. |
 | `CLIENT DELIVERY - SteadyUs Client Session Guide.pdf` | Client handout / client orientation | Use when sending clients something practical they can read, save, or print. | Do not use it as your internal coach notes tool. |
+| `CLIENT DELIVERY - SteadyUs Pre-Session Worksheet.pdf` | Client preparation worksheet | Use before Session 1 when you want couples to reflect and arrive with a clearer starting picture. | Do not use it as a substitute for the session guide or internal notes. |
 | `INTERNAL ONLY - SteadyUs Coach Delivery Playbook.pdf` | Internal written delivery guide | Use before sessions, while training another coach, or when checking consistency. | Do not use it as a client handout. |
 | `INTERNAL ONLY - SteadyUs Coach Call Notes Form.pdf` | Internal working notes sheet | Use during and after sessions to capture patterns, decisions, and next steps. | Do not use it as a sales document. |
 
@@ -65,6 +68,7 @@ These three Markdown documents are important, but they are **source material**, 
 | `CLIENT DELIVERY - SOURCE - Client Session Checklist.md` | Original written client guidance | Basis for the **client session guide** PDF |
 | `INTERNAL ONLY - SOURCE - Session Delivery Plan.md` | Original internal delivery playbook | Basis for the **coach delivery playbook** PDF |
 | `INTERNAL ONLY - SOURCE - Coach Call Notes Template.md` | Original internal notes structure | Basis for the **coach call notes form** PDF |
+| `CLIENT DELIVERY - SOURCE - Pre-Session Worksheet.md` | Original pre-session client worksheet | Basis for the **pre-session worksheet** PDF |
 
 This is where some of the overlap comes from. The Markdown files and the PDFs are not doing different jobs. The PDFs are simply the more usable versions of the same delivery content.
 
@@ -111,3 +115,4 @@ For future versions, the naming rule should be: `YYYY-MM-DD - Audience - File Na
 | 17 May 2026 | Added a one-page visual index PDF and visible version/date stamps to the key PDFs. |
 | 17 May 2026 | Added branded title pages to the key PDFs and created the `LATEST FILES ONLY - SteadyUs` working folder for easier day-to-day use. |
 | 17 May 2026 | Added `CLIENT SAFE SHARE PACK - SteadyUs/` and set the future naming rule to `YYYY-MM-DD - Audience - File Name` for revised files. |
+| 17 May 2026 | Added a client pre-session worksheet, a client-safe welcome letter, and a coach-only internal ZIP. |

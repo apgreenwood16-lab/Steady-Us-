@@ -14,18 +14,20 @@ The **main level** now prioritizes the clearer labeled files. Older unlabeled du
 | `SALES - Couples Budget Reset At A Glance.pdf` | Prospect / sales | One-page summary of the offer. |
 | `CLIENT DELIVERY DECK - SteadyUs Couples Budget Reset.pdf` | Client-facing | Client-facing presentation deck for walking through the delivery journey visually. |
 | `CLIENT DELIVERY - SteadyUs Client Session Guide.pdf` | Client-facing | Practical guide you can send to clients so they understand the session journey. |
+| `CLIENT DELIVERY - SteadyUs Pre-Session Worksheet.pdf` | Client-facing | Simple worksheet couples can complete before Session 1 to clarify their starting point. |
 | `INTERNAL ONLY DECK - SteadyUs Coach Delivery Guide.pdf` | Coach / internal use | Internal facilitation deck for the session flow. |
 | `INTERNAL ONLY - SteadyUs Coach Delivery Playbook.pdf` | Coach / internal use | Internal written guide for running the sessions consistently. |
 | `INTERNAL ONLY - SteadyUs Coach Call Notes Form.pdf` | Coach / internal use | Internal working form for notes, decisions, and follow-up. |
 | `CLIENT DELIVERY - SOURCE - Client Session Checklist.md` | Client-facing source | Editable source text behind the client session guide. |
 | `INTERNAL ONLY - SOURCE - Session Delivery Plan.md` | Internal source | Editable source text behind the coach delivery playbook. |
 | `INTERNAL ONLY - SOURCE - Coach Call Notes Template.md` | Internal source | Editable source text behind the coach call notes form. |
+| `CLIENT DELIVERY - SOURCE - Pre-Session Worksheet.md` | Client-facing source | Editable source text behind the pre-session worksheet. |
 | `MASTER ZIP - SteadyUs Core Operational Files.zip` | Mixed | Lean ZIP containing the five most important operational files. |
 | `FULL ARCHIVE ZIP - SteadyUs Delivery Pack.zip` | Mixed | Broader ZIP containing the full cleaned folder and archived older files. |
 | `LATEST FILES ONLY - SteadyUs/` | Mixed working set | Holds the current day-to-day files in one lighter folder without the archive clutter. |
 | `CLIENT SAFE SHARE PACK - SteadyUs/` | Client-safe pack | Holds only the files that are safe to share externally with clients because Internal Only files are excluded. |
 | `ARCHIVE - Older Unlabeled Files/` | Internal archive | Holds the older unlabeled duplicates and earlier generation files so they do not clutter the main folder. |
 
-The PDF files are the most usable day-to-day versions. The Markdown `SOURCE` files are the editable originals. The cover sheet, START HERE guide, visual index, `LATEST FILES ONLY - SteadyUs/` folder, and `CLIENT SAFE SHARE PACK - SteadyUs/` folder help you choose quickly between them.
+The PDF files are the most usable day-to-day versions. The Markdown `SOURCE` files are the editable originals. The cover sheet, START HERE guide, visual index, `LATEST FILES ONLY - SteadyUs/` folder, and `CLIENT SAFE SHARE PACK - SteadyUs/` folder help you choose quickly between them. The new pre-session worksheet now gives you a client-safe preparation file you can send before Session 1 so couples arrive with clearer thoughts and better starting context.
 
 For future revised files, use the naming rule `YYYY-MM-DD - Audience - File Name` so the newest versions sort cleanly and remain understandable at a glance.
