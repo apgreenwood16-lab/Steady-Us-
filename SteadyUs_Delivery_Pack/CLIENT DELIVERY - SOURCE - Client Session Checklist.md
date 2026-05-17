@@ -1,5 +1,8 @@
 # SteadyUs Client Session Checklist
 
+**Version date:** 2026-05-17  
+**Audience:** Client delivery source
+
 This checklist is a simple client-facing guide for the **Couples Budget Reset**. It is designed to make the process feel clear and manageable from the first booking message through to the final written summary. The tone is intentionally calm and practical so couples know they do not need to arrive with perfect finances, perfect paperwork, or perfect answers.
 
 ## What this package is for
