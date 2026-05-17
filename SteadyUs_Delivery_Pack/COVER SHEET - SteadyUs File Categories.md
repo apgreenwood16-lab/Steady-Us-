@@ -15,6 +15,6 @@ There are also two supporting types of file in this folder.
 | Supporting type | What it is for |
 | --- | --- |
 | **Source files** | The labeled `SOURCE` Markdown files are the editable originals behind the polished PDFs. Use them only when you want to change the wording. |
-| **Navigation / package files** | `START_HERE_WHICH_FILE_TO_USE.md`, `README.md`, and the ZIP files help you navigate or share the pack more easily. |
+| **Navigation / package files** | `START_HERE_WHICH_FILE_TO_USE.md`, `VISUAL INDEX - SteadyUs File Map.pdf`, `README.md`, and the two ZIP files help you navigate or share the pack more easily. |
 
 The older unlabeled versions have been moved into `ARCHIVE - Older Unlabeled Files` so the main folder is cleaner while still keeping the earlier files available if you ever need them.

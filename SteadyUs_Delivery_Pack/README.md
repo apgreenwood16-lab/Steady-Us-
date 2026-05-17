@@ -8,6 +8,7 @@ The **main level** now prioritizes the clearer labeled files. Older unlabeled du
 | --- | --- | --- |
 | `COVER SHEET - SteadyUs File Categories.md` | Mixed | Explains the difference between Sales, Client Delivery, and Internal Only files. |
 | `START_HERE_WHICH_FILE_TO_USE.md` | Mixed | The quickest navigation guide for deciding which file or deck to use in each situation. |
+| `VISUAL INDEX - SteadyUs File Map.pdf` | Mixed | One-page visual map of the folder and when each category of file should be used. |
 | `SALES - SteadyUs Full Offer Deck.pdf` | Prospect / sales | Full sales deck for explaining the offer in full. |
 | `SALES - SteadyUs Prospect Deck.pdf` | Prospect / sales | Shorter sales deck for a quicker introduction to the offer. |
 | `SALES - Couples Budget Reset At A Glance.pdf` | Prospect / sales | One-page summary of the offer. |
@@ -23,4 +24,4 @@ The **main level** now prioritizes the clearer labeled files. Older unlabeled du
 | `FULL ARCHIVE ZIP - SteadyUs Delivery Pack.zip` | Mixed | Broader ZIP containing the full cleaned folder and archived older files. |
 | `ARCHIVE - Older Unlabeled Files/` | Internal archive | Holds the older unlabeled duplicates and earlier generation files so they do not clutter the main folder. |
 
-The PDF files are the most usable day-to-day versions. The Markdown `SOURCE` files are the editable originals. The cover sheet and START HERE guide help you choose quickly between them.
+The PDF files are the most usable day-to-day versions. The Markdown `SOURCE` files are the editable originals. The cover sheet, START HERE guide, and visual index help you choose quickly between them.
