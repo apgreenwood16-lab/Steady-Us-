@@ -23,6 +23,9 @@ The **main level** now prioritizes the clearer labeled files. Older unlabeled du
 | `MASTER ZIP - SteadyUs Core Operational Files.zip` | Mixed | Lean ZIP containing the five most important operational files. |
 | `FULL ARCHIVE ZIP - SteadyUs Delivery Pack.zip` | Mixed | Broader ZIP containing the full cleaned folder and archived older files. |
 | `LATEST FILES ONLY - SteadyUs/` | Mixed working set | Holds the current day-to-day files in one lighter folder without the archive clutter. |
+| `CLIENT SAFE SHARE PACK - SteadyUs/` | Client-safe pack | Holds only the files that are safe to share externally with clients because Internal Only files are excluded. |
 | `ARCHIVE - Older Unlabeled Files/` | Internal archive | Holds the older unlabeled duplicates and earlier generation files so they do not clutter the main folder. |
 
-The PDF files are the most usable day-to-day versions. The Markdown `SOURCE` files are the editable originals. The cover sheet, START HERE guide, visual index, and `LATEST FILES ONLY - SteadyUs/` folder help you choose quickly between them.
+The PDF files are the most usable day-to-day versions. The Markdown `SOURCE` files are the editable originals. The cover sheet, START HERE guide, visual index, `LATEST FILES ONLY - SteadyUs/` folder, and `CLIENT SAFE SHARE PACK - SteadyUs/` folder help you choose quickly between them.
+
+For future revised files, use the naming rule `YYYY-MM-DD - Audience - File Name` so the newest versions sort cleanly and remain understandable at a glance.

@@ -32,6 +32,7 @@ If you want the shortest possible version, use this table first.
 | Edit the wording behind the delivery materials | `CLIENT DELIVERY - SOURCE - Client Session Checklist.md`, `INTERNAL ONLY - SOURCE - Session Delivery Plan.md`, `INTERNAL ONLY - SOURCE - Coach Call Notes Template.md` | These are the source text documents that sit behind the polished delivery PDFs. |
 | Hand the project to someone else or rebuild it later | `README.md`, `CLAUDE_PASTE_READY_HANDOVER.md`, `WEBSITE_REBUILD_NOTES.md`, `PRESENTATIONS_REBUILD.md` | These are reference and handover files, not live client or delivery assets. |
 | Just open the current day-to-day working set | `LATEST FILES ONLY - SteadyUs/` | This is the quickest folder when you want the current practical files without archive clutter. |
+| Share files safely with clients | `CLIENT SAFE SHARE PACK - SteadyUs/` | This folder removes Internal Only files so you can share a cleaner client-safe set. |
 
 ## 3. Sales materials
 
@@ -100,6 +101,8 @@ If you want the cleanest day-to-day working area, open `LATEST FILES ONLY - Stea
 
 This file is stored in the consolidated delivery folder so there is now one obvious place in GitHub to find the practical delivery materials and this navigation guide together.
 
+For future versions, the naming rule should be: `YYYY-MM-DD - Audience - File Name`. For example: `2026-05-17 - Client Delivery - SteadyUs Client Session Guide.pdf`. This keeps revised files easy to sort and understand.
+
 ## 9. Short revision log
 
 | Date | Change |
@@ -107,3 +110,4 @@ This file is stored in the consolidated delivery folder so there is now one obvi
 | 17 May 2026 | Added clearer audience-labeled filenames, a quick decision tree, a cover sheet, and two ZIP package options. |
 | 17 May 2026 | Added a one-page visual index PDF and visible version/date stamps to the key PDFs. |
 | 17 May 2026 | Added branded title pages to the key PDFs and created the `LATEST FILES ONLY - SteadyUs` working folder for easier day-to-day use. |
+| 17 May 2026 | Added `CLIENT SAFE SHARE PACK - SteadyUs/` and set the future naming rule to `YYYY-MM-DD - Audience - File Name` for revised files. |
